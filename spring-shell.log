@@ -14,3 +14,17 @@
 1615802287226:mul 2 3
 1615802465814:create shiva 24 hyd
 1615802482576:createuser shiva 24 hyd
+1615803428182:createuser ram 25 blr
+1615803453102:deleteuser ram 25 blr
+1615810631076:createuser raj 23 vzg
+1615810640973:deleteuser raj 23 vzg
+1615810843796:createuser raj 23 vzg
+1615810861327:deleteuser raj 23 vzg
+1615811630894:createuser raj 23 hyd
+1615811637847:delete raj 23 hyd
+1615811652343:deletuser raj 23 hyd
+1615811661443:deleteuser raj 23 hyd
+1615811917769:createuser raj 45 hyd
+1615811925706:deleteuser raj 45 hyd
+1615812548789:createuser raj 23 delhi
+1615812556877:deleteuser raj 23 delhi
