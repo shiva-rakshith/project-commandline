@@ -18,7 +18,7 @@ public class Command{
         jedis.lpush("name",name);
         jedis.lpush("age", String.valueOf(age));
         jedis.lpush("location",location);
-        logger.debug("Created user details successfully");
+        logger.debug("Created user details successfully:");
     }
 
     @ShellMethod("deleting user")
@@ -26,7 +26,7 @@ public class Command{
         jedis.lrem("name",0,name);
         jedis.lrem("age",0, String.valueOf(age));
         jedis.lrem("location",0,location);
-        logger.debug("Deleted user details successfully");
+        logger.debug("Deleted user details successfully:");
     }
 
 }
