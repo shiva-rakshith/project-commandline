@@ -8,8 +8,8 @@
   <name>project-commandline</name>
   <url>http://maven.apache.org</url>
   <properties>
-   <maven.compiler.source>15</maven.compiler.source>
-   <maven.compiler.target>15</maven.compiler.target>
+   <maven.compiler.source>11</maven.compiler.source>
+   <maven.compiler.target>11</maven.compiler.target>
  </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -40,6 +40,11 @@
         </plugins>
     </build>
   <dependencies>
+      <dependency>
+          <groupId>org.json</groupId>
+          <artifactId>json</artifactId>
+          <version>20210307</version>
+      </dependency>
       <dependency>
           <groupId>com.typesafe</groupId>
           <artifactId>config</artifactId>
