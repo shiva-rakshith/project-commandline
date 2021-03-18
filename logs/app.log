@@ -1,0 +1,887 @@
+2021-03-16 17:07:40 | INFO  | [main] p.Command:29 - Created user details successfully.
+2021-03-16 17:07:49 | INFO  | [main] p.Command:37 - Deleted user details successfully.
+2021-03-16 17:08:07 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-16 17:08:07 | INFO  | [main] p.App:55 - Starting App using Java 15.0.2 on LAPTOP-4MTIUFQQ with PID 560 (C:\Users\ASUS\Desktop\Projects\project-commandline\target\classes started by ASUS in C:\Users\ASUS\Desktop\Projects\project-commandline)
+2021-03-16 17:08:07 | DEBUG | [main] p.App:56 - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-03-16 17:08:07 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-16 17:08:08 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-16 17:08:08 | INFO  | [main] p.App:61 - Started App in 1.834 seconds (JVM running for 2.417)
+2021-03-16 17:08:24 | INFO  | [main] p.Command:29 - Created user details successfully.
+2021-03-16 17:08:42 | INFO  | [main] p.Command:37 - Deleted user details successfully.
+2021-03-16 17:09:22 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-16 17:09:22 | INFO  | [main] p.App:55 - Starting App using Java 15.0.2 on LAPTOP-4MTIUFQQ with PID 30040 (C:\Users\ASUS\Desktop\Projects\project-commandline\target\classes started by ASUS in C:\Users\ASUS\Desktop\Projects\project-commandline)
+2021-03-16 17:09:22 | DEBUG | [main] p.App:56 - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-03-16 17:09:22 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-16 17:09:23 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-16 17:09:23 | INFO  | [main] p.App:61 - Started App in 1.787 seconds (JVM running for 2.347)
+2021-03-16 17:09:33 | INFO  | [main] p.Command:29 - Created user details successfully.
+2021-03-16 17:09:53 | INFO  | [main] p.Command:37 - Deleted user details successfully.
+2021-03-16 17:10:17 | ERROR | [main] o.s.b.SpringApplication:856 - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at projectgroup.App.main(App.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2021-03-16 17:10:35 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-16 17:10:35 | INFO  | [main] p.App:55 - Starting App using Java 15.0.2 on LAPTOP-4MTIUFQQ with PID 28840 (C:\Users\ASUS\Desktop\Projects\project-commandline\target\classes started by ASUS in C:\Users\ASUS\Desktop\Projects\project-commandline)
+2021-03-16 17:10:35 | DEBUG | [main] p.App:56 - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-03-16 17:10:35 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-16 17:10:36 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-16 17:10:36 | INFO  | [main] p.App:61 - Started App in 2.098 seconds (JVM running for 2.761)
+2021-03-17 10:29:35 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-17 10:29:35 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 30408 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-17 10:29:35 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-17 10:29:36 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-17 10:29:36 | INFO  | [main] p.App:61 - Started App in 1.937 seconds (JVM running for 2.605)
+2021-03-17 19:28:49 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-17 19:28:49 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 14972 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-17 19:28:49 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-17 19:28:52 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-17 19:28:52 | INFO  | [main] p.App:61 - Started App in 3.08 seconds (JVM running for 3.965)
+2021-03-17 19:29:09 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-17 19:29:09 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 34372 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-17 19:29:09 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-17 19:29:10 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-17 19:29:10 | INFO  | [main] p.App:61 - Started App in 2.45 seconds (JVM running for 3.323)
+2021-03-17 19:30:11 | INFO  | [main] p.Command:31 - Created user details successfully.
+2021-03-17 19:44:50 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-17 19:44:50 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 19608 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-17 19:44:50 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-17 19:44:51 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-17 19:44:52 | INFO  | [main] p.App:61 - Started App in 2.739 seconds (JVM running for 3.523)
+2021-03-17 19:46:16 | INFO  | [main] p.Command:31 - Created user details successfully.
+2021-03-17 20:12:45 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-17 20:12:45 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 23028 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-17 20:12:45 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-17 20:12:47 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-17 20:12:47 | INFO  | [main] p.App:61 - Started App in 2.777 seconds (JVM running for 3.597)
+2021-03-17 20:13:04 | INFO  | [main] p.Command:31 - Created user details successfully.
+2021-03-17 20:49:01 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-17 20:49:01 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 22588 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-17 20:49:01 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-17 20:49:03 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-17 20:49:04 | INFO  | [main] p.App:61 - Started App in 2.811 seconds (JVM running for 3.727)
+2021-03-17 20:50:55 | INFO  | [main] p.Command:32 - Created user details successfully.
+2021-03-17 20:52:32 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 31700 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-17 20:52:32 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-17 20:52:32 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-17 20:52:34 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-17 20:52:34 | INFO  | [main] p.App:61 - Started App in 2.753 seconds (JVM running for 3.774)
+2021-03-17 20:52:49 | INFO  | [main] p.Command:32 - Created user details successfully.
+2021-03-17 20:54:40 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-17 20:54:40 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 33964 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-17 20:54:40 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-17 20:54:42 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-17 20:54:42 | INFO  | [main] p.App:61 - Started App in 2.674 seconds (JVM running for 3.517)
+2021-03-17 20:55:53 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 34600 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-17 20:55:53 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-17 20:55:53 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-17 20:55:55 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-17 20:55:55 | INFO  | [main] p.App:61 - Started App in 2.695 seconds (JVM running for 3.56)
+2021-03-18 09:15:45 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 09:15:45 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 36800 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 09:15:45 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 09:15:47 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 09:15:47 | INFO  | [main] p.App:61 - Started App in 2.843 seconds (JVM running for 3.814)
+2021-03-18 09:18:32 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 09:18:32 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 38536 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 09:18:32 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 09:18:34 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 09:18:35 | INFO  | [main] p.App:61 - Started App in 2.735 seconds (JVM running for 3.528)
+2021-03-18 09:20:31 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 09:20:31 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 40824 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 09:20:31 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 09:20:31 | INFO  | [main] p.App:61 - Started App in 0.813 seconds (JVM running for 1.637)
+2021-03-18 09:21:11 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 09:21:11 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 40760 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 09:21:11 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 09:21:13 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 09:21:13 | INFO  | [main] p.App:61 - Started App in 2.784 seconds (JVM running for 3.59)
+2021-03-18 09:25:27 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 09:25:27 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 18516 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 09:25:27 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 09:25:29 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 09:25:30 | WARN  | [main] o.s.c.a.AnnotationConfigApplicationContext:590 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Command description cannot be null or empty
+2021-03-18 09:25:30 | INFO  | [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-18 09:25:30 | ERROR | [main] o.s.b.SpringApplication:856 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Command description cannot be null or empty
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at projectgroup.App.main(App.java:10)
+Caused by: java.lang.IllegalArgumentException: Command description cannot be null or empty
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.shell.Command$Help.<init>(Command.java:49)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.lambda$register$0(StandardMethodTargetRegistrar.java:68)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:364)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.register(StandardMethodTargetRegistrar.java:59)
+	at org.springframework.shell.Shell.gatherMethodTargets(Shell.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+2021-03-18 09:25:53 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 09:25:53 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 38644 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 09:25:53 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 09:25:55 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 09:25:55 | WARN  | [main] o.s.c.a.AnnotationConfigApplicationContext:590 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Command description cannot be null or empty
+2021-03-18 09:25:55 | INFO  | [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-18 09:25:56 | ERROR | [main] o.s.b.SpringApplication:856 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Command description cannot be null or empty
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at projectgroup.App.main(App.java:10)
+Caused by: java.lang.IllegalArgumentException: Command description cannot be null or empty
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.shell.Command$Help.<init>(Command.java:49)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.lambda$register$0(StandardMethodTargetRegistrar.java:68)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:364)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.register(StandardMethodTargetRegistrar.java:59)
+	at org.springframework.shell.Shell.gatherMethodTargets(Shell.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+2021-03-18 09:26:26 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 09:26:26 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 20960 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 09:26:26 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 09:26:28 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 09:26:28 | WARN  | [main] o.s.c.a.AnnotationConfigApplicationContext:590 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Illegal registration for command 'create-user': Attempt to register both 'public void projectgroup.RedisCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)' and 'public void projectgroup.MysqlCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)'
+2021-03-18 09:26:28 | INFO  | [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-18 09:26:28 | ERROR | [main] o.s.b.SpringApplication:856 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Illegal registration for command 'create-user': Attempt to register both 'public void projectgroup.RedisCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)' and 'public void projectgroup.MysqlCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)'
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at projectgroup.App.main(App.java:10)
+Caused by: java.lang.IllegalArgumentException: Illegal registration for command 'create-user': Attempt to register both 'public void projectgroup.RedisCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)' and 'public void projectgroup.MysqlCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)'
+	at org.springframework.shell.ConfigurableCommandRegistry.register(ConfigurableCommandRegistry.java:43)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.lambda$register$0(StandardMethodTargetRegistrar.java:69)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:364)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.register(StandardMethodTargetRegistrar.java:59)
+	at org.springframework.shell.Shell.gatherMethodTargets(Shell.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+2021-03-18 10:17:26 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 10:17:26 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 37996 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 10:17:26 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 10:17:28 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 10:17:28 | WARN  | [main] o.s.c.a.AnnotationConfigApplicationContext:590 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Illegal registration for command 'create-user': Attempt to register both 'public void projectgroup.RedisCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)' and 'public void projectgroup.MysqlCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)'
+2021-03-18 10:17:28 | INFO  | [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-18 10:17:28 | ERROR | [main] o.s.b.SpringApplication:856 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Illegal registration for command 'create-user': Attempt to register both 'public void projectgroup.RedisCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)' and 'public void projectgroup.MysqlCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)'
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at projectgroup.App.main(App.java:10)
+Caused by: java.lang.IllegalArgumentException: Illegal registration for command 'create-user': Attempt to register both 'public void projectgroup.RedisCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)' and 'public void projectgroup.MysqlCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)'
+	at org.springframework.shell.ConfigurableCommandRegistry.register(ConfigurableCommandRegistry.java:43)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.lambda$register$0(StandardMethodTargetRegistrar.java:69)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:364)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.register(StandardMethodTargetRegistrar.java:59)
+	at org.springframework.shell.Shell.gatherMethodTargets(Shell.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+2021-03-18 12:14:41 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:14:41 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 12084 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:14:41 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:14:43 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:14:43 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:14:43 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:14:43 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:14:43 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:14:43 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1984 ms
+2021-03-18 12:14:43 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:14:44 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:14:44 | WARN  | [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:590 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Illegal registration for command 'create-user': Attempt to register both 'public void projectgroup.RedisCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)' and 'public void projectgroup.MysqlCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)'
+2021-03-18 12:14:44 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:14:44 | INFO  | [main] o.a.c.c.StandardService:173 - Stopping service [Tomcat]
+2021-03-18 12:14:44 | INFO  | [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-18 12:14:44 | ERROR | [main] o.s.b.SpringApplication:856 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shell': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Illegal registration for command 'create-user': Attempt to register both 'public void projectgroup.RedisCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)' and 'public void projectgroup.MysqlCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)'
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at projectgroup.App.main(App.java:10)
+Caused by: java.lang.IllegalArgumentException: Illegal registration for command 'create-user': Attempt to register both 'public void projectgroup.RedisCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)' and 'public void projectgroup.MysqlCommand.createUser(java.lang.String,java.lang.String,int,java.lang.String)'
+	at org.springframework.shell.ConfigurableCommandRegistry.register(ConfigurableCommandRegistry.java:43)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.lambda$register$0(StandardMethodTargetRegistrar.java:69)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:364)
+	at org.springframework.shell.standard.StandardMethodTargetRegistrar.register(StandardMethodTargetRegistrar.java:59)
+	at org.springframework.shell.Shell.gatherMethodTargets(Shell.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 19 common frames omitted
+2021-03-18 12:16:28 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 26712 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:16:28 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:16:28 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:16:30 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:16:30 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:16:30 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:16:30 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:16:30 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:16:30 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 2020 ms
+2021-03-18 12:16:31 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:16:31 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:16:31 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:16:31 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:16:31 | INFO  | [main] p.App:61 - Started App in 4.003 seconds (JVM running for 4.846)
+2021-03-18 12:17:52 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:17:52 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:17:52 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 2 ms
+2021-03-18 12:31:55 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:31:55 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 39420 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:31:55 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:31:56 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:31:56 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:31:56 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:31:56 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:31:57 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:31:57 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1861 ms
+2021-03-18 12:31:57 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:31:57 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:31:58 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:31:58 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:31:58 | INFO  | [main] p.App:61 - Started App in 3.747 seconds (JVM running for 4.617)
+2021-03-18 12:32:51 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:32:51 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 10052 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:32:51 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:32:53 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:32:53 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:32:53 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:32:53 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:32:53 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:32:53 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1960 ms
+2021-03-18 12:32:54 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:32:54 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:32:54 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:32:54 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:32:54 | INFO  | [main] p.App:61 - Started App in 3.79 seconds (JVM running for 4.622)
+2021-03-18 12:33:17 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:33:17 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:33:17 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 2 ms
+2021-03-18 12:36:41 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:36:41 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 29452 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:36:41 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:36:43 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:36:43 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:36:43 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:36:43 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:36:43 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:36:43 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1980 ms
+2021-03-18 12:36:43 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:36:44 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:36:44 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:36:44 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:36:44 | INFO  | [main] p.App:61 - Started App in 3.872 seconds (JVM running for 4.746)
+2021-03-18 12:36:56 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:36:56 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:36:56 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 2 ms
+2021-03-18 12:37:30 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:37:30 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 15432 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:37:30 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:37:32 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:37:32 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:37:32 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:37:32 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:37:32 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:37:32 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1988 ms
+2021-03-18 12:37:32 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:37:33 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:37:33 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:37:33 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:37:33 | INFO  | [main] p.App:61 - Started App in 3.921 seconds (JVM running for 4.741)
+2021-03-18 12:37:50 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:37:50 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:37:50 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-18 12:38:21 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:38:21 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 29952 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:38:21 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:38:23 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:38:23 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:38:23 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:38:23 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:38:23 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:38:23 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1942 ms
+2021-03-18 12:38:24 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:38:24 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:38:24 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:38:24 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:38:24 | INFO  | [main] p.App:61 - Started App in 3.772 seconds (JVM running for 4.592)
+2021-03-18 12:38:33 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:38:33 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:38:33 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-18 12:39:30 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:39:30 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 38424 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:39:30 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:39:32 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:39:32 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:39:32 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:39:32 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:39:32 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:39:32 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 2043 ms
+2021-03-18 12:39:33 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:39:34 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:39:34 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:39:34 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:39:34 | INFO  | [main] p.App:61 - Started App in 4.139 seconds (JVM running for 5.172)
+2021-03-18 12:39:50 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:39:50 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:39:50 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-18 12:41:11 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 32492 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:41:11 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:41:11 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:41:13 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:41:13 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:41:13 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:41:13 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:41:13 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:41:13 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1953 ms
+2021-03-18 12:41:13 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:41:14 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:41:14 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:41:14 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:41:14 | INFO  | [main] p.App:61 - Started App in 3.791 seconds (JVM running for 4.609)
+2021-03-18 12:41:24 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:41:24 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:41:24 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 0 ms
+2021-03-18 12:42:28 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:42:28 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 16940 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:42:28 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:42:30 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:42:30 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:42:30 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:42:30 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:42:30 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:42:30 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1843 ms
+2021-03-18 12:42:31 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:42:31 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:42:31 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:42:31 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:42:31 | INFO  | [main] p.App:61 - Started App in 3.678 seconds (JVM running for 4.582)
+2021-03-18 12:42:41 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:42:41 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:42:41 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-18 12:45:33 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 33864 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:45:33 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:45:33 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:45:35 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:45:35 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:45:35 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:45:35 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:45:35 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:45:35 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 2019 ms
+2021-03-18 12:45:35 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:45:36 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:45:36 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:45:36 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:45:36 | INFO  | [main] p.App:61 - Started App in 3.861 seconds (JVM running for 4.693)
+2021-03-18 12:45:41 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:45:41 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:45:41 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 5 ms
+2021-03-18 12:47:39 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:47:39 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 39932 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:47:39 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:47:41 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:47:41 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:47:41 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:47:41 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:47:41 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:47:41 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1985 ms
+2021-03-18 12:47:41 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:47:42 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:47:42 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:47:42 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:47:42 | INFO  | [main] p.App:61 - Started App in 3.859 seconds (JVM running for 4.692)
+2021-03-18 12:47:48 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:47:48 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:47:48 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 2 ms
+2021-03-18 12:49:26 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:49:26 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 32548 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:49:26 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:49:28 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:49:28 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:49:28 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:49:28 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:49:28 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:49:28 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1959 ms
+2021-03-18 12:49:29 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:49:29 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:49:29 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:49:29 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:49:29 | INFO  | [main] p.App:61 - Started App in 3.883 seconds (JVM running for 4.698)
+2021-03-18 12:49:43 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:49:43 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:49:43 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-18 12:51:47 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:51:47 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 8200 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:51:47 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:51:49 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:51:49 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:51:49 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:51:49 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:51:49 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:51:49 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 2058 ms
+2021-03-18 12:51:50 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:51:50 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:51:50 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:51:50 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:51:50 | INFO  | [main] p.App:61 - Started App in 4.056 seconds (JVM running for 4.895)
+2021-03-18 12:52:11 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:52:11 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:52:11 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 0 ms
+2021-03-18 12:53:25 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 12:53:25 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 39304 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 12:53:25 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 12:53:27 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 12:53:27 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:53:27 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 12:53:27 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 12:53:27 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 12:53:27 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1906 ms
+2021-03-18 12:53:27 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 12:53:28 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 12:53:28 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 12:53:28 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 12:53:28 | INFO  | [main] p.App:61 - Started App in 4.031 seconds (JVM running for 4.884)
+2021-03-18 12:53:33 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 12:53:33 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 12:53:33 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 5 ms
+2021-03-18 13:01:13 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:01:13 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 36604 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:01:13 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:01:16 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:01:16 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:01:16 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:01:16 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:01:16 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:01:16 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 3336 ms
+2021-03-18 13:01:17 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 13:01:18 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 13:01:19 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:01:19 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 13:01:19 | INFO  | [main] p.App:61 - Started App in 6.549 seconds (JVM running for 7.457)
+2021-03-18 13:01:19 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 13:01:19 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 13:01:19 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 3 ms
+2021-03-18 13:07:46 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 36568 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:07:46 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:07:46 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:07:48 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:07:48 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:07:48 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:07:48 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:07:48 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:07:48 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1955 ms
+2021-03-18 13:07:48 | ERROR | [main] o.s.b.w.e.t.TomcatStarter:61 - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'formContentFilter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.filter.OrderedFormContentFilter]: Factory method 'formContentFilter' threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/JacksonFeature
+2021-03-18 13:07:48 | INFO  | [main] o.a.c.c.StandardService:173 - Stopping service [Tomcat]
+2021-03-18 13:07:48 | WARN  | [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:590 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-03-18 13:07:48 | INFO  | [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-18 13:07:48 | ERROR | [main] o.s.b.SpringApplication:856 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:576)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at projectgroup.App.main(App.java:10)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159)
+	... 9 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'formContentFilter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.filter.OrderedFormContentFilter]: Factory method 'formContentFilter' threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/JacksonFeature
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:259)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:233)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5166)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 14 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.filter.OrderedFormContentFilter]: Factory method 'formContentFilter' threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/JacksonFeature
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 55 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/JacksonFeature
+	at com.fasterxml.jackson.databind.ObjectMapper.<init>(ObjectMapper.java:655)
+	at com.fasterxml.jackson.databind.ObjectMapper.<init>(ObjectMapper.java:558)
+	at org.springframework.http.converter.json.Jackson2ObjectMapperBuilder.build(Jackson2ObjectMapperBuilder.java:678)
+	at org.springframework.http.converter.json.MappingJackson2HttpMessageConverter.<init>(MappingJackson2HttpMessageConverter.java:59)
+	at org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter.<init>(AllEncompassingFormHttpMessageConverter.java:91)
+	at org.springframework.web.filter.FormContentFilter.<init>(FormContentFilter.java:61)
+	at org.springframework.boot.web.servlet.filter.OrderedFormContentFilter.<init>(OrderedFormContentFilter.java:29)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.formContentFilter(WebMvcAutoConfiguration.java:174)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 56 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.util.JacksonFeature
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 69 common frames omitted
+2021-03-18 13:13:06 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:13:06 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 40588 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:13:06 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:13:08 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:13:08 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:13:08 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:13:08 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:13:08 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:13:08 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1864 ms
+2021-03-18 13:13:08 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 13:13:09 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 13:13:09 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:13:09 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 13:13:09 | INFO  | [main] p.App:61 - Started App in 3.665 seconds (JVM running for 4.507)
+2021-03-18 13:13:23 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 13:13:23 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 13:13:23 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-18 13:23:16 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:23:16 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 4432 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:23:16 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:23:18 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:23:18 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:23:18 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:23:18 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:23:18 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:23:18 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1927 ms
+2021-03-18 13:23:19 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 13:23:19 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 13:23:19 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:23:19 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 13:23:19 | INFO  | [main] p.App:61 - Started App in 3.74 seconds (JVM running for 4.669)
+2021-03-18 13:23:42 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 13:23:42 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 13:23:42 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 6 ms
+2021-03-18 13:25:04 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:25:04 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 29800 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:25:04 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:25:06 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:25:06 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:25:06 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:25:06 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:25:06 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:25:06 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1894 ms
+2021-03-18 13:25:07 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 13:25:07 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 13:25:08 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:25:08 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 13:25:08 | INFO  | [main] p.App:61 - Started App in 3.884 seconds (JVM running for 4.739)
+2021-03-18 13:25:13 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 13:25:13 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 13:25:13 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 1 ms
+2021-03-18 13:27:46 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:27:46 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 23064 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:27:46 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:27:47 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:27:47 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:27:47 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:27:47 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:27:48 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:27:48 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1898 ms
+2021-03-18 13:27:48 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 13:27:48 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 13:27:49 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:27:49 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 13:27:49 | INFO  | [main] p.App:61 - Started App in 3.721 seconds (JVM running for 4.556)
+2021-03-18 13:28:06 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 13:28:06 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 13:28:06 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 2 ms
+2021-03-18 13:28:33 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:28:33 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 38060 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:28:33 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:28:34 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:28:34 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:28:34 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:28:34 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:28:35 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:28:35 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1838 ms
+2021-03-18 13:28:35 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 13:28:35 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 13:28:35 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:28:36 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 13:28:36 | INFO  | [main] p.App:61 - Started App in 3.616 seconds (JVM running for 4.427)
+2021-03-18 13:28:41 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 13:28:41 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 13:28:41 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 2 ms
+2021-03-18 13:42:00 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:42:00 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 28912 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:42:00 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:42:02 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:42:02 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:42:02 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:42:02 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:42:03 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:42:03 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 2160 ms
+2021-03-18 13:42:03 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 13:42:05 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 13:42:05 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:42:05 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 13:42:05 | INFO  | [main] p.App:61 - Started App in 5.392 seconds (JVM running for 6.231)
+2021-03-18 13:43:11 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 13:43:11 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 13:43:11 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-18 13:49:18 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:49:18 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 40156 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:49:18 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:49:20 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:49:20 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:49:20 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:49:20 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:49:20 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:49:20 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 2025 ms
+2021-03-18 13:49:20 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 13:49:21 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 13:49:21 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:49:21 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 13:49:21 | INFO  | [main] p.App:61 - Started App in 4.244 seconds (JVM running for 5.114)
+2021-03-18 13:49:29 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 13:49:29 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 13:49:29 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 6 ms
+2021-03-18 13:52:47 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 13:52:47 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 39312 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 13:52:47 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 13:52:49 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 13:52:49 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:52:49 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 13:52:49 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 13:52:49 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 13:52:49 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1993 ms
+2021-03-18 13:52:49 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 13:52:50 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 13:52:50 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 13:52:50 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 13:52:50 | INFO  | [main] p.App:61 - Started App in 3.958 seconds (JVM running for 4.77)
+2021-03-18 13:53:02 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 13:53:02 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 13:53:02 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-18 13:53:32 | INFO  | [main] p.RedisCommand:46 - New details are successfully updated: 8522875773 rakshith 24 Hyderabad
+2021-03-18 14:16:48 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 11116 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 14:16:48 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 14:16:48 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 14:16:50 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 14:16:50 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 14:16:50 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 14:16:50 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 14:16:50 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 14:16:50 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 2067 ms
+2021-03-18 14:16:51 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 14:16:51 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 14:16:51 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 14:16:51 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 14:16:51 | INFO  | [main] p.App:61 - Started App in 3.991 seconds (JVM running for 4.842)
+2021-03-18 14:16:59 | INFO  | [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 14:16:59 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 14:16:59 | INFO  | [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-18 14:16:59 | WARN  | [http-nio-8080-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-03-18 14:18:01 | INFO  | [main] p.RedisCommand:34 - Created user details successfully: 8499017911 akhil 25 khammam
+2021-03-18 14:18:24 | WARN  | [http-nio-8080-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-03-18 14:22:16 | WARN  | [http-nio-8080-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-03-18 16:12:30 | WARN  | [http-nio-8080-exec-8] o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'phoneNumber' is not present]
+2021-03-18 16:56:33 | INFO  | [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-18 16:56:33 | INFO  | [main] p.App:55 - Starting App using Java 11.0.10 on LAPTOP-4MTIUFQQ with PID 37140 (C:\Projects\project-commandline\target\classes started by ASUS in C:\Projects\project-commandline)
+2021-03-18 16:56:33 | INFO  | [main] p.App:660 - No active profile set, falling back to default profiles: default
+2021-03-18 16:56:35 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-03-18 16:56:35 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-18 16:56:35 | INFO  | [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-03-18 16:56:35 | INFO  | [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-18 16:56:35 | INFO  | [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-03-18 16:56:35 | INFO  | [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1899 ms
+2021-03-18 16:56:36 | INFO  | [main] o.s.s.c.ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-18 16:56:36 | WARN  | [main] o.jline:117 - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-03-18 16:56:37 | INFO  | [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-18 16:56:37 | INFO  | [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-18 16:56:37 | INFO  | [main] p.App:61 - Started App in 3.844 seconds (JVM running for 4.902)
+2021-03-18 16:57:09 | INFO  | [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-18 16:57:09 | INFO  | [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-18 16:57:09 | INFO  | [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet:547 - Completed initialization in 2 ms
+2021-03-18 16:58:41 | INFO  | [http-nio-8080-exec-6] p.RedisCommand:60 - 8499017911user details deleted successfully.
+2021-03-18 17:02:33 | WARN  | [http-nio-8080-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-03-18 17:02:40 | INFO  | [http-nio-8080-exec-3] p.RedisCommand:35 - Created user details successfully: 8499017911 akhil 25 hyderabad
